@@ -4,7 +4,7 @@
 
 | Name | Department | University | Email |
 |---|---|---|---|
-| [Member 1] | Electrical and Electronic Engineering | NTU | [Email] |
+| Tan Shaun Darran | Electrical and Electronic Engineering | NTU | DTAN163@e.ntu.edu.sg |
 | [Member 2] | [Department] | [University] | [Email] |
 
 ---
