@@ -4,8 +4,9 @@
 
 | Name | Department | University | Email |
 |---|---|---|---|
-| Tan Shaun Darran | Electrical and Electronic Engineering | NTU | DTAN163@e.ntu.edu.sg |
-| [Member 2] | [Department] | [University] | [Email] |
+| Tan Shaun Darran | Department of Electrical and Electronic Engineering | NTU | DTAN163@e.ntu.edu.sg |
+| Chiang Jun Han | Department of Electrical and Electronic Engineering | NTU | jchiang009@e.ntu.edu.sg |
+| [Member 3] | [Department] | [University] | [Email] |
 
 ---
 
