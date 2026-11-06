@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Tan Shaun Darran | Department of Electrical and Electronic Engineering | Nanyang Technological University | DTAN163@e.ntu.edu.sg |
 | Chiang Jun Han | Department of Electrical and Electronic Engineering | Nanyang Technological University | jchiang009@e.ntu.edu.sg |
-| [Member 3] | [Department] | [University] | [Email] |
+| Tang Bin | Department of Information Systems | Hanyang University | tangbin9@hanyang.ac.kr |
 
 ---
 
