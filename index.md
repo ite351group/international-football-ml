@@ -163,6 +163,9 @@ This section explores historical international football match results from 1990 
 
 We first examined the distribution of international football match outcomes.
 
+![Distribution of Match Outcomes](results/figures/outcome_distribution.png)
+*Figure 1. Distribution of international football match outcomes.*
+
 Our dataset contained 32,821 matches, with the following results:
 
 | Match Outcome | Percentage |
@@ -177,6 +180,9 @@ Home wins were the most frequent outcome, suggesting that home advantage may pla
 
 We compared match outcomes between neutral and non-neutral venues.
 
+![Home Advantage](results/figures/home_advantage.png)
+*Figure 2. Home win percentage across neutral and non-neutral venues.*
+
 For non-neutral matches, home wins accounted for approximately 50.73% of outcomes, compared to 44.22% for neutral matches.
 
 Historical analysis also showed that the home-win percentage at neutral venues has generally declined in more recent decades. However, the number of neutral-venue matches varied substantially across decades, so these percentages should be interpreted with caution.
@@ -184,6 +190,9 @@ Historical analysis also showed that the home-win percentage at neutral venues h
 ### 4.1.3 Team Participation
 
 We examined the national teams with the highest number of international match appearances.
+
+![Top 10 Teams](results/figures/top_teams.png)
+*Figure 3. National teams with the highest number of international match appearances.*
 
 Mexico recorded the highest number of appearances (665), followed by the United States (627) and Saudi Arabia (585).
 
@@ -193,13 +202,32 @@ This highlights differences in international match participation across national
 
 Tournament analysis showed that friendly matches were the most common individual category, with 10,758 matches.
 
+![Tournament Distribution](results/figures/tournament_distribution.png)
+*Figure 4. Distribution of the most common international football tournaments.*
+
 World Cup qualification was the second most common category, with 6,977 matches.
 
 When grouped into friendly and competitive fixtures, competitive matches accounted for 67.22% of the dataset, while friendlies accounted for 32.78%.
 
-### 4.1.5 Goal Scoring Patterns
+### 4.1.5 Friendly vs Competitive Matches
+
+We examined the distribution of friendly and competitive international matches to understand the composition of the dataset.
+
+For this analysis, matches recorded under the tournament category "Friendly" were classified as friendly matches, while all other tournament categories were grouped as competitive matches.
+
+![Friendly vs Competitive Matches](results/figures/match_type_distribution.png)
+*Figure 5. Proportion of friendly and competitive international matches.*
+
+The results showed that competitive matches accounted for 67.22% of the dataset, while friendly matches represented 32.78%. This indicates that the dataset contains approximately twice as many competitive matches as friendly matches.
+
+This distinction may be relevant to match outcome prediction, as teams may approach friendly and competitive fixtures differently in terms of strategy, team selection and match intensity. Therefore, match type will be considered as a potential predictor during feature engineering and model development.
+
+### 4.1.6 Goal Scoring Patterns
 
 Home teams scored an average of 1.65 goals per match, compared to 1.11 goals for away teams. The average combined goals per match was approximately 2.76.
+
+![Goal Distribution](results/figures/goal_distribution.png)
+*Figure 6. Distribution of total goals scored per international match.*
 
 The distribution of total goals showed that matches with relatively few goals were much more common than high-scoring matches.
 
