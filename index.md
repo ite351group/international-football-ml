@@ -157,17 +157,53 @@ The prediction task will involve three possible classes:
 
 ## 4.1 Exploratory Data Analysis
 
-We will investigate historical football match trends through data visualisation and statistical analysis.
+This section explores historical international football match results from 1990 onwards. The analysis examines match outcomes, home advantage, team participation, tournament distribution and scoring patterns.
 
-Potential areas of investigation include:
+### 4.1.1 Distribution of Match Outcomes
 
-- Distribution of home wins, draws and away wins.
-- Comparison of home and away scoring patterns.
-- Historical trends in international football results.
-- Differences between friendly and competitive matches.
-- The influence of home advantage.
+We first examined the distribution of international football match outcomes.
 
-**[Graphs and statistical findings to be added]**
+Our dataset contained 32,821 matches, with the following results:
+
+| Match Outcome | Percentage |
+|---|---:|
+| Home Win | 48.47% |
+| Away Win | 28.08% |
+| Draw | 23.45% |
+
+Home wins were the most frequent outcome, suggesting that home advantage may play an important role in international football.
+
+### 4.1.2 Home Advantage and Venue
+
+We compared match outcomes between neutral and non-neutral venues.
+
+For non-neutral matches, home wins accounted for approximately 50.73% of outcomes, compared to 44.22% for neutral matches.
+
+Historical analysis also showed that the home-win percentage at neutral venues has generally declined in more recent decades. However, the number of neutral-venue matches varied substantially across decades, so these percentages should be interpreted with caution.
+
+### 4.1.3 Team Participation
+
+We examined the national teams with the highest number of international match appearances.
+
+Mexico recorded the highest number of appearances (665), followed by the United States (627) and Saudi Arabia (585).
+
+This highlights differences in international match participation across national teams.
+
+### 4.1.4 Tournament Distribution
+
+Tournament analysis showed that friendly matches were the most common individual category, with 10,758 matches.
+
+World Cup qualification was the second most common category, with 6,977 matches.
+
+When grouped into friendly and competitive fixtures, competitive matches accounted for 67.22% of the dataset, while friendlies accounted for 32.78%.
+
+### 4.1.5 Goal Scoring Patterns
+
+Home teams scored an average of 1.65 goals per match, compared to 1.11 goals for away teams. The average combined goals per match was approximately 2.76.
+
+The distribution of total goals showed that matches with relatively few goals were much more common than high-scoring matches.
+
+Overall, these exploratory findings identify several potentially useful factors for our prediction task, including home advantage and tournament type. These factors will be investigated further during feature engineering and model development.
 
 ## 4.2 Model Evaluation
 
