@@ -1,0 +1,5 @@
+model,accuracy,balanced_accuracy,macro_f1
+majority_class_dummy,0.477228,0.333333,0.215371
+logistic_regression,0.608413,0.509239,0.464762
+random_forest,0.599032,0.510502,0.480273
+extra_trees,0.592223,0.522478,0.5087
