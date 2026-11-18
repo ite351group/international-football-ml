@@ -1,0 +1,18 @@
+{
+  "source_sha256": "0b67e6a268a329892d288e03fa90000fac7566022d7bca9c59b104c3704d5716",
+  "published_split_cutoff": "2019-11-19",
+  "train_rows": 26212,
+  "holdout_rows": 6609,
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "sklearn": "1.5.2",
+  "models": "Exact estimators and preprocessing in group src/train.py; group module imports feature builder. Published accuracy, macro-F1 and confusion matrices asserted equal before saving.",
+  "probability_class_order": [
+    "away_win",
+    "draw",
+    "home_win"
+  ],
+  "brier_definition": "Mean across matches of sum over three classes of (probability - onehot)^2; 0..2.",
+  "rps_definition": "Mean across matches of mean squared cumulative-probability error at away_win and draw thresholds; ORDER away_win, draw, home_win; 0..1.",
+  "holdout_reuse": "Published 2019-11-19+ holdout has already been inspected. This is descriptive analysis only; no model/threshold selection or calibration fit."
+}

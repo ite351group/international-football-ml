@@ -1,0 +1,54 @@
+{
+  "majority_class_dummy": {
+    "matches": 6609,
+    "accuracy": 0.47722802239370554,
+    "macro_f1": 0.21537095838027928,
+    "draw_recall": 0.0,
+    "actual_draw_rate": 0.22802239370555302,
+    "predicted_draw_rate": 0.0,
+    "mean_predicted_draw_probability": 0.0,
+    "mean_predicted_draw_probability_on_actual_draws": 0.0,
+    "log_loss": 18.842611962384588,
+    "multiclass_brier_sum": 1.045543955212589,
+    "rps_normalized": 0.4087607807535179
+  },
+  "logistic_regression": {
+    "matches": 6609,
+    "accuracy": 0.608412770464518,
+    "macro_f1": 0.4647623202840505,
+    "draw_recall": 0.0338420703384207,
+    "actual_draw_rate": 0.22802239370555302,
+    "predicted_draw_rate": 0.021485852625208048,
+    "mean_predicted_draw_probability": 0.22729296798487064,
+    "mean_predicted_draw_probability_on_actual_draws": 0.2560320406858406,
+    "log_loss": 0.8629541870497343,
+    "multiclass_brier_sum": 0.5070028974450187,
+    "rps_normalized": 0.16845426301459723
+  },
+  "random_forest": {
+    "matches": 6609,
+    "accuracy": 0.5990316235436526,
+    "macro_f1": 0.48027266720032974,
+    "draw_recall": 0.07498341074983411,
+    "actual_draw_rate": 0.22802239370555302,
+    "predicted_draw_rate": 0.057799969738235736,
+    "mean_predicted_draw_probability": 0.2628091268723933,
+    "mean_predicted_draw_probability_on_actual_draws": 0.2877758502005964,
+    "log_loss": 0.8767621541191616,
+    "multiclass_brier_sum": 0.5148496621370566,
+    "rps_normalized": 0.17129087391630352
+  },
+  "extra_trees": {
+    "matches": 6609,
+    "accuracy": 0.5922227265849599,
+    "macro_f1": 0.5086997949969357,
+    "draw_recall": 0.16058394160583941,
+    "actual_draw_rate": 0.22802239370555302,
+    "predicted_draw_rate": 0.12104705704342564,
+    "mean_predicted_draw_probability": 0.29077836077872443,
+    "mean_predicted_draw_probability_on_actual_draws": 0.31586974237514537,
+    "log_loss": 0.890289019316757,
+    "multiclass_brier_sum": 0.5243637587006409,
+    "rps_normalized": 0.17470094576051018
+  }
+}

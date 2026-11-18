@@ -1,0 +1,22 @@
+{
+  "comparison": "extra_trees minus logistic_regression",
+  "resampling_unit": "calendar month (paired, with replacement)",
+  "month_blocks": 74,
+  "replicates": 5000,
+  "seed": 42,
+  "macro_f1_difference": {
+    "point": 0.04393747471288523,
+    "percentile_95_interval": [
+      0.033189117063504615,
+      0.05509497917670512
+    ]
+  },
+  "accuracy_difference": {
+    "point": -0.016190043879558177,
+    "percentile_95_interval": [
+      -0.023863540722111727,
+      -0.007869435566028954
+    ]
+  },
+  "interpretation_limit": "Exploratory uncertainty for this already inspected holdout, not a confirmatory significance test. Months are not fully independent, and the models have different class weights."
+}
