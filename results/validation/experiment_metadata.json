@@ -1,0 +1,131 @@
+{
+  "run_utc": "2026-11-15T11:30:51.850813+00:00",
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "sklearn": "1.5.2",
+  "input_sha256": "0b67e6a268a329892d288e03fa90000fac7566022d7bca9c59b104c3704d5716",
+  "audit": {
+    "rows": 49945,
+    "missing_by_column": {
+      "date": 0,
+      "home_team": 0,
+      "away_team": 0,
+      "home_score": 0,
+      "away_score": 0,
+      "tournament": 0,
+      "city": 0,
+      "country": 0,
+      "neutral": 0,
+      "source_row": 0
+    },
+    "exact_duplicates_excluding_row_id": 0,
+    "invalid_neutral": 0,
+    "invalid_score_rows": 0,
+    "same_team_rows": 0,
+    "fixture_key_duplicates": 1,
+    "max_goals_single_team": 31.0
+  },
+  "folds": [
+    [
+      "2010-01-01",
+      "2013-01-01"
+    ],
+    [
+      "2013-01-01",
+      "2016-01-01"
+    ],
+    [
+      "2016-01-01",
+      "2019-11-19"
+    ]
+  ],
+  "feature_groups": {
+    "context": [
+      [],
+      [
+        "neutral",
+        "match_type"
+      ]
+    ],
+    "context_form": [
+      [
+        "home_form5",
+        "away_form5",
+        "home_form10",
+        "away_form10",
+        "form5_diff",
+        "form10_diff",
+        "home_rest_days",
+        "away_rest_days",
+        "rest_diff"
+      ],
+      [
+        "neutral",
+        "match_type"
+      ]
+    ],
+    "context_form_elo": [
+      [
+        "home_form5",
+        "away_form5",
+        "home_form10",
+        "away_form10",
+        "form5_diff",
+        "form10_diff",
+        "home_rest_days",
+        "away_rest_days",
+        "rest_diff",
+        "home_elo",
+        "away_elo",
+        "elo_diff",
+        "elo_home_expectancy"
+      ],
+      [
+        "neutral",
+        "match_type"
+      ]
+    ],
+    "full_features": [
+      [
+        "home_games",
+        "away_games",
+        "home_win_rate",
+        "away_win_rate",
+        "home_ppg",
+        "away_ppg",
+        "home_gdpg",
+        "away_gdpg",
+        "home_gfpg",
+        "away_gfpg",
+        "home_gapg",
+        "away_gapg",
+        "home_form5",
+        "away_form5",
+        "home_form10",
+        "away_form10",
+        "home_rest_days",
+        "away_rest_days",
+        "win_rate_diff",
+        "ppg_diff",
+        "gdpg_diff",
+        "gfpg_diff",
+        "gapg_diff",
+        "form5_diff",
+        "form10_diff",
+        "rest_diff",
+        "h2h_games",
+        "h2h_home_ppg",
+        "h2h_home_win_rate",
+        "home_elo",
+        "away_elo",
+        "elo_diff",
+        "elo_home_expectancy"
+      ],
+      [
+        "tournament",
+        "neutral"
+      ]
+    ]
+  },
+  "scope": "Local preview. No final holdout retraining/evaluation. These past windows were part of an earlier broad historical experiment and are not pristine blind data. No confidence/significance claim. Mean across three windows is unweighted."
+}
