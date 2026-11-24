@@ -330,4 +330,3 @@ Potential future improvements include:
 2. Scikit-learn Documentation. https://scikit-learn.org/stable/
 3. Pandas Documentation. https://pandas.pydata.org/docs/
 
-[Additional academic papers, articles and resources to be added.]
